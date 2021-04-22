@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css" type="text/css">
+    <title>Story Form</title>
+</head>
+
+<body>
+    <form>
+        <label>Name</label>
+        <input type="text" id="name" placeholder="anonymous">
+        <label>Email</label>
+        <input type="text" id="email">
+        <br>
+        <label>Title</label>
+        <input type="text" id="title">
+        <br>
+        <label>Your Story</label>
+        <textarea name="userStory" rows="5" cols="50"></textarea>
+        <br>
+        <label>Add a Recording</label>
+        <input type="file" id="uploadFile">
+        <br>
+        <label>What city did it happen in?</label>
+        <input type="text" id="city">
+        <label>What state did it happen in?</label>
+        <select>
+            <option value="">select</option>
+            <option value="AL">AL</option>
+            <option value="AK">AK</option>
+            <option value="AR">AR</option>
+            <option value="AZ">AZ</option>
+            <option value="CA">CA</option>
+            <option value="CO">CO</option>
+            <option value="CT">CT</option>
+            <option value="DC">DC</option>
+            <option value="DE">DE</option>
+            <option value="FL">FL</option>
+            <option value="GA">GA</option>
+            <option value="HI">HI</option>
+            <option value="IA">IA</option>
+            <option value="ID">ID</option>
+            <option value="IL">IL</option>
+            <option value="IN">IN</option>
+            <option value="KS">KS</option>
+            <option value="KY">KY</option>
+            <option value="LA">LA</option>
+            <option value="MA">MA</option>
+            <option value="MD">MD</option>
+            <option value="ME">ME</option>
+            <option value="MI">MI</option>
+            <option value="MN">MN</option>
+            <option value="MO">MO</option>
+            <option value="MS">MS</option>
+            <option value="MT">MT</option>
+            <option value="NC">NC</option>
+            <option value="NE">NE</option>
+            <option value="NH">NH</option>
+            <option value="NJ">NJ</option>
+            <option value="NM">NM</option>
+            <option value="NV">NV</option>
+            <option value="NY">NY</option>
+            <option value="ND">ND</option>
+            <option value="OH">OH</option>
+            <option value="OK">OK</option>
+            <option value="OR">OR</option>
+            <option value="PA">PA</option>
+            <option value="RI">RI</option>
+            <option value="SC">SC</option>
+            <option value="SD">SD</option>
+            <option value="TN">TN</option>
+            <option value="TX">TX</option>
+            <option value="UT">UT</option>
+            <option value="VT">VT</option>
+            <option value="VA">VA</option>
+            <option value="WA">WA</option>
+            <option value="WI">WI</option>
+            <option value="WV">WV</option>
+            <option value="WY">WY</option>
+        </select>
+        <br>
+        <label>Date incident occured</label>
+        <input type="date" id="date">
+        <br>
+        <label>Were the police called?</label>
+        <select>
+            <option value="">select</option>
+            <option value="yes">Yes</option>
+            <option value="no">No</option>
+        </select>
+        <br>
+        <label>Where did it occur? (check all that apply)</label>
+        <br>
+        <input type="checkbox" id="incident" name="publictransportation" value="Public Transportation">
+        <label for="publictransportation">Public Transportation</label>
+        <br>
+        <input type="checkbox" id="incident" name="onthestreet" value="On the street">
+        <label for="onthestreet">On the street</label>
+        <br>
+        <input type="checkbox" id="incident" name="school" value="School">
+        <label for="school">School</label>
+        <br>
+        <input type="checkbox" id="incident" name="university" value="University">
+        <label for="university">University</label>
+        <br>
+        <input type="checkbox" id="incident" name="business" value="Business">
+        <label for="business">Business</label>
+        <br>
+        <input type="checkbox" id="incident" name="online" value="Online">
+        <label for="online">Online</label>
+        <br>
+        <input type="checkbox" id="incident" name="placeofworship" value="Place of Worship">
+        <label for="placeofworship">Place of Worship</label>
+        <br>
+        <input type="checkbox" id="incident" name="privateresidence" value="Private Residence">
+        <label for="privateresidence">Private Residence</label>
+        <br>
+        <input type="checkbox" id="incident" name="other" value="Other">
+        <label for="other">Other</label>
+        <br>
+        <label>May we contact you with resources to combat hate?</label>
+        <select>
+            <option value="">select</option>
+            <option value="yes">Yes</option>
+            <option value="no">No</option>
+        </select>
+        <br>
+        <label>Would you like to make this report public?</label>
+        <select>
+            <option value="">select</option>
+            <option value="yes">Yes</option>
+            <option value="no">No</option>
+        </select>
+        <br>
+        <input type="checkbox" id="agree" name="termsofagreement" value="Terms of Agreement">
+        <label for="termsofagreement">
+            By checking this box, you give Asian Americans Advancing Justice permission to use your story, without
+            personal information, for publication or use in our materials. We will not share your personal information
+            publicly without your written consent. As part of Communities Against Hate, Advancing Justice will share
+            data confidentially with coalition partners for the purposes of tracking hate incidents, analysis,
+            reporting, and public education. Your story, minus personal details, may also be shared.
+        </label>
+        <br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+
+</html>
