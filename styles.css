@@ -1,8 +1,47 @@
 body {
-  background-color: #F07524;
-  color: #fff;
+    background-color: #F07524;
+    color: #fff;
+}
+
+/* Navigation */
+#offcanvas-header {
+    background-color: #4A4A4A;
+}
+
+/* Header */
+.main {
+    display: flex;
+    flex-direction: row;
+}
+
+#logo {
+    padding: 20px;
+}
+
+/* Campaign */
+#stories {
+    background-color: #4A4A4A;
+}
+
+/* Affiliates */
+#affiliates {
+    background-color: #4A4A4A;
+}
+
+/* Donations */
+#donate {
+    background-color: #fff;
+    color: #000;
+}
+
+/* Footer Section */
+footer {
+    background-color: #000;
+    height: 200px;
+    padding: 15px 20px;
 }
 
 .socialmedia {
-  fill: #fff;
+    fill: #fff;
 }
+
