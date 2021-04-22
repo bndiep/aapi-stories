@@ -1,10 +1,14 @@
 body {
-    background-color: #F07524;
+    background-color: #4A4A4A;
     color: #fff;
+    height: 5000px
 }
 
 /* Navigation */
-#offcanvas-header {
+nav {
+    background-color: #F07524;
+}
+.offcanvas, .offcanvas-start {
     background-color: #4A4A4A;
 }
 
@@ -12,15 +16,48 @@ body {
 .main {
     display: flex;
     flex-direction: row;
+    background-color: #F07524;
+    height: 730px;
+    justify-content: space-around;
+    align-items: center;
 }
 
 #logo {
     padding: 20px;
 }
 
+#about{
+    width: 500px;
+    /* font-family: "Gil Sans", sans-serif; */
+    font-family: Georgia, serif;
+}
+
+h3{
+    line-height: 150%;
+}
+
 /* Campaign */
 #stories {
-    background-color: #4A4A4A;
+    height: 730px;
+    margin-top: 30px ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.btn, .btn-primary{
+    color:white;
+    background-color:#F07524;
+    border: #F07524;
+
+}
+
+.btn:hover, .btn-primary:hover{
+    color:white;
+    background-color:#F07524;
+    border: #F07524;
+    
 }
 
 /* Affiliates */
