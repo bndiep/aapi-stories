@@ -46,6 +46,10 @@ h3{
     align-items: center;
 }
 
+#wordcloud{
+    padding: 30px;
+}
+
 .btn, .btn-primary{
     color:white;
     background-color:#F07524;
