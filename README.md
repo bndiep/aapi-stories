@@ -28,5 +28,8 @@
 - As a user, I can share a story to social media.
 
 ## Achievements so Far:
-![Image of Essteem Equalithon Badge]
+![image of Essteem Equalithon badge - Design Thinking]
 (https://dl.airtable.com/.attachments/04958e7d55649478b58b68a7add6ee08/4d4f8b08/Teambadge-DesignThinking.png)
+
+![image of Essteem Equalithon badge - Team Leader]
+(https://dl.airtable.com/.attachments/775066c85d8591af5478ce9a721f1f1f/db83f0be/Performance-TeamLeader.png)
