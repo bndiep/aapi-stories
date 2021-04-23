@@ -1,0 +1,12 @@
+body {
+  background-color: #4A4A4A;
+  color: #fff;
+}
+
+/* Navigation */
+nav {
+  background-color: #F07524;
+}
+.offcanvas, .offcanvas-start {
+  background-color: #4A4A4A;
+}
