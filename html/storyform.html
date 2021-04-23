@@ -45,144 +45,216 @@
             </div>
         </nav>
     </header>
+    <div class="container-fluid">
+        <div class="container-sm">
+            <h1 class="text-center">Share your Story</h1>
+            <p class="text-start">
+                Have you ever experienced or witnessed an incident of discrimination against AAPI communities? How did this make you feel? The world needs to know your story. By sharing your story, you can help us to prevent and stop hate crimes targeting AAPI communities.
+            </p>
+        </div>
+        <form class="container-md">
+            <div class="row mb-3">
+                <div class="col">
+                    <label for="name" class="col-sm-2 col-form-label" aria-label="name">Name*</label>
+                    <input type="text" class="form-control" id="name">
+                </div>
+                <div class="col">
+                    <label for="email" class="col-sm-2 col-form-label" aria-label="email">Email*</label>
+                    <input type="email" class="form-control" id="email">
+                </div>
+            </div>
 
-    <form>
-        <label>Name</label>
-        <input type="text" id="name" placeholder="anonymous">
-        <label>Email</label>
-        <input type="text" id="email">
-        <br>
-        <label>Title</label>
-        <input type="text" id="title">
-        <br>
-        <label>Your Story</label>
-        <textarea name="userStory" rows="5" cols="50"></textarea>
-        <br>
-        <label>Add a Recording</label>
-        <input type="file" id="uploadFile">
-        <br>
-        <label>What city did it happen in?</label>
-        <input type="text" id="city">
-        <label>What state did it happen in?</label>
-        <select>
-            <option value="">select</option>
-            <option value="AL">AL</option>
-            <option value="AK">AK</option>
-            <option value="AR">AR</option>
-            <option value="AZ">AZ</option>
-            <option value="CA">CA</option>
-            <option value="CO">CO</option>
-            <option value="CT">CT</option>
-            <option value="DC">DC</option>
-            <option value="DE">DE</option>
-            <option value="FL">FL</option>
-            <option value="GA">GA</option>
-            <option value="HI">HI</option>
-            <option value="IA">IA</option>
-            <option value="ID">ID</option>
-            <option value="IL">IL</option>
-            <option value="IN">IN</option>
-            <option value="KS">KS</option>
-            <option value="KY">KY</option>
-            <option value="LA">LA</option>
-            <option value="MA">MA</option>
-            <option value="MD">MD</option>
-            <option value="ME">ME</option>
-            <option value="MI">MI</option>
-            <option value="MN">MN</option>
-            <option value="MO">MO</option>
-            <option value="MS">MS</option>
-            <option value="MT">MT</option>
-            <option value="NC">NC</option>
-            <option value="NE">NE</option>
-            <option value="NH">NH</option>
-            <option value="NJ">NJ</option>
-            <option value="NM">NM</option>
-            <option value="NV">NV</option>
-            <option value="NY">NY</option>
-            <option value="ND">ND</option>
-            <option value="OH">OH</option>
-            <option value="OK">OK</option>
-            <option value="OR">OR</option>
-            <option value="PA">PA</option>
-            <option value="RI">RI</option>
-            <option value="SC">SC</option>
-            <option value="SD">SD</option>
-            <option value="TN">TN</option>
-            <option value="TX">TX</option>
-            <option value="UT">UT</option>
-            <option value="VT">VT</option>
-            <option value="VA">VA</option>
-            <option value="WA">WA</option>
-            <option value="WI">WI</option>
-            <option value="WV">WV</option>
-            <option value="WY">WY</option>
-        </select>
-        <br>
-        <label>Date incident occured</label>
-        <input type="date" id="date">
-        <br>
-        <label>Were the police called?</label>
-        <select>
-            <option value="">select</option>
-            <option value="yes">Yes</option>
-            <option value="no">No</option>
-        </select>
-        <br>
-        <label>Where did it occur? (check all that apply)</label>
-        <br>
-        <input type="checkbox" id="incident" name="publictransportation" value="Public Transportation">
-        <label for="publictransportation">Public Transportation</label>
-        <br>
-        <input type="checkbox" id="incident" name="onthestreet" value="On the street">
-        <label for="onthestreet">On the street</label>
-        <br>
-        <input type="checkbox" id="incident" name="school" value="School">
-        <label for="school">School</label>
-        <br>
-        <input type="checkbox" id="incident" name="university" value="University">
-        <label for="university">University</label>
-        <br>
-        <input type="checkbox" id="incident" name="business" value="Business">
-        <label for="business">Business</label>
-        <br>
-        <input type="checkbox" id="incident" name="online" value="Online">
-        <label for="online">Online</label>
-        <br>
-        <input type="checkbox" id="incident" name="placeofworship" value="Place of Worship">
-        <label for="placeofworship">Place of Worship</label>
-        <br>
-        <input type="checkbox" id="incident" name="privateresidence" value="Private Residence">
-        <label for="privateresidence">Private Residence</label>
-        <br>
-        <input type="checkbox" id="incident" name="other" value="Other">
-        <label for="other">Other</label>
-        <br>
-        <label>May we contact you with resources to combat hate?</label>
-        <select>
-            <option value="">select</option>
-            <option value="yes">Yes</option>
-            <option value="no">No</option>
-        </select>
-        <br>
-        <label>Would you like to make this report public?</label>
-        <select>
-            <option value="">select</option>
-            <option value="yes">Yes</option>
-            <option value="no">No</option>
-        </select>
-        <br>
-        <input type="checkbox" id="agree" name="termsofagreement" value="Terms of Agreement">
-        <label for="termsofagreement">
-            By checking this box, you give Asian Americans Advancing Justice permission to use your story, without
-            personal information, for publication or use in our materials. We will not share your personal information
-            publicly without your written consent. As part of Communities Against Hate, Advancing Justice will share
-            data confidentially with coalition partners for the purposes of tracking hate incidents, analysis,
-            reporting, and public education. Your story, minus personal details, may also be shared.
-        </label>
-        <br>
-        <input type="submit" value="Submit">
-    </form>
+            <div class="row mb-3">
+                <div class="col">
+                    <label for="title" class="col-sm col-form-label" aria-label="title">Title*</label>
+                    <input type="text" class="form-control" id="title">
+                </div>
+            </div>
+            <div class="row mb-3">
+                <div class="col">
+                    <label for="story-text" class="col-sm col-form-label">Your Story*</label>
+                    <div class="form-floating">
+                        <textarea class="form-control" name="userStory" id="story-text"></textarea>
+                    </div>
+                </div>
+            </div>
+            <div class="row mb-3">
+                <div class="col-sm-5">
+                    <label for="uploadFile" class="col-form-label">Add a Recording</label>
+                    <input class="form-control" type="file" id="uploadFile">
+                </div>
+            </div>
+            <div class="row mb-3">
+                <div class="col-sm-6">
+                    <label for="city" class="col-sm col-form-label">What city did it happen in?*</label>
+                    <input class="form-control" type="text" id="city">
+                </div>
+                <div class="col-sm-5">
+                    <label for="state" class="col-sm col-form-label">What state did it happen in?*</label>
+                    <div class="col-sm-5">
+                        <select class="form-select" aria-label="Select state" id="state">
+                            <option selected>Select</option>
+                            <option value="AL">AL</option>
+                            <option value="AK">AK</option>
+                            <option value="AR">AR</option>
+                            <option value="AZ">AZ</option>
+                            <option value="CA">CA</option>
+                            <option value="CO">CO</option>
+                            <option value="CT">CT</option>
+                            <option value="DC">DC</option>
+                            <option value="DE">DE</option>
+                            <option value="FL">FL</option>
+                            <option value="GA">GA</option>
+                            <option value="HI">HI</option>
+                            <option value="IA">IA</option>
+                            <option value="ID">ID</option>
+                            <option value="IL">IL</option>
+                            <option value="IN">IN</option>
+                            <option value="KS">KS</option>
+                            <option value="KY">KY</option>
+                            <option value="LA">LA</option>
+                            <option value="MA">MA</option>
+                            <option value="MD">MD</option>
+                            <option value="ME">ME</option>
+                            <option value="MI">MI</option>
+                            <option value="MN">MN</option>
+                            <option value="MO">MO</option>
+                            <option value="MS">MS</option>
+                            <option value="MT">MT</option>
+                            <option value="NC">NC</option>
+                            <option value="NE">NE</option>
+                            <option value="NH">NH</option>
+                            <option value="NJ">NJ</option>
+                            <option value="NM">NM</option>
+                            <option value="NV">NV</option>
+                            <option value="NY">NY</option>
+                            <option value="ND">ND</option>
+                            <option value="OH">OH</option>
+                            <option value="OK">OK</option>
+                            <option value="OR">OR</option>
+                            <option value="PA">PA</option>
+                            <option value="RI">RI</option>
+                            <option value="SC">SC</option>
+                            <option value="SD">SD</option>
+                            <option value="TN">TN</option>
+                            <option value="TX">TX</option>
+                            <option value="UT">UT</option>
+                            <option value="VT">VT</option>
+                            <option value="VA">VA</option>
+                            <option value="WA">WA</option>
+                            <option value="WI">WI</option>
+                            <option value="WV">WV</option>
+                            <option value="WY">WY</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="row mb-3">
+                <div class="col-sm-7">
+                    <label for="date" class="col-sm col-form-label">Date incident occured</label>
+                    <div class="col-sm-4">
+                        <input class="form-control col-sm" type="date" id="date">
+                    </div>
+                </div>
+            </div>
+            <div class="row mb-3">
+                <div class="col-sm-7">
+                    <label for="police-call" class="col-sm col-form-label">Were the police called?*</label>
+                    <div class="col-sm-3">
+                        <select class="form-select" aria-label="Select if the police were called" id="police-call">
+                            <option value="">Select</option>
+                            <option value="yes">Yes</option>
+                            <option value="no">No</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="row mb-3">
+                <div class="col-sm-7">
+                    <label for="incident-locations" class="col-sm col-form-label">Where did it occur? (check all that apply)*</label>
+                </div>
+                <div class="form-check" id="incident-locations">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="incident" name="publictransportation" value="Public Transportation">
+                        <label class="form-check-label" for="publictransportation">Public Transportation</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="incident" name="onthestreet" value="On the street">
+                        <label for="onthestreet">On the street</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="incident" name="school" value="School">
+                        <label for="school">School</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="incident" name="university" value="University">
+                        <label for="university">University</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="incident" name="business" value="Business">
+                        <label for="business">Business</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="incident" name="online" value="Online">
+                        <label for="online">Online</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="incident" name="placeofworship" value="Place of Worship">
+                        <label for="placeofworship">Place of Worship</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="incident" name="privateresidence" value="Private Residence">
+                        <label for="privateresidence">Private Residence</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="incident" name="other" value="Other">
+                        <label for="other">Other</label>
+                    </div>
+                </div>
+            </div>
+            <div class="row mb-3">
+                <div class="col-sm-7">
+                    <label for="resource-contact" class="col-sm col-form-label">May we contact you with resources to combat hate?*</label>
+                    <div class="col-sm-3">
+                        <select class="form-select" aria-label="Select if you would like resources to fight hate crimes" id="resource-contact">
+                            <option value="">Select</option>
+                            <option value="yes">Yes</option>
+                            <option value="no">No</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="row mb-3">
+                <div class="col-sm-7">
+                    <label for="report" class="col-sm col-form-label">Would you like to make this report public?*</label>
+                    <div class="col-sm-3">
+                        <select class="form-select" aria-label="Select if you would like to make the report available for everyone to read" id="report">
+                            <option value="">Select</option>
+                            <option value="yes">Yes</option>
+                            <option value="no">No</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="row mb-3">
+                <div class="form-check" for="agreement">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="agreement" name="termsofagreement" value="Terms of Agreement">
+                        <label class="form-check-label" for="termsofagreement">
+                            By checking this box, you give Asian Americans Advancing Justice permission to use your story, without
+                            personal information, for publication or use in our materials. We will not share your personal information
+                            publicly without your written consent. As part of Communities Against Hate, Advancing Justice will share
+                            data confidentially with coalition partners for the purposes of tracking hate incidents, analysis,
+                            reporting, and public education. Your story, minus personal details, may also be shared.
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center">
+                <input class="btn btn-primary" type="submit" value="Submit">
+            </div>
+        </form>
+    </div>
 
     <footer id="contacts">
         <h1>Connect with Us</h1>
