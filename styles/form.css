@@ -1,12 +1,29 @@
 body {
-  background-color: #4A4A4A;
-  color: #fff;
-}
+    background-color: #4A4A4A;
+    color: #fff;
+    }
 
 /* Navigation */
-nav {
-  background-color: #F07524;
-}
 .offcanvas, .offcanvas-start {
-  background-color: #4A4A4A;
+    background-color: #4A4A4A;
 }
+
+.menu-icon {
+    width: 100px;
+    height: 100px;
+    background-image: url(../assets/menu-icon.png);
+    background-repeat: no-repeat;
+    background-position: 5px 5px;
+    background-size: calc(0.75em + 0.375rem) calc(0.75em + 0.375rem);
+}
+
+.nav-links {
+    list-style-type: none;
+}
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+    font-size: larger;
+}
+
+/* Form */
