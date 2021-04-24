@@ -1,0 +1,35 @@
+body {
+  background-color: #4A4A4A;
+  color: #fff;
+}
+
+/* Navigation */
+
+/* About */
+
+/* Cards */
+.card {
+  width: 18rem;
+  color: #000;
+}
+
+.btn-primary {
+  background-color: #F07524;
+  border: #F07524;
+}
+
+.btn-primary:hover {
+  background-color: #F07524;
+  border: #F07524;
+}
+
+/* Footer */
+footer {
+  background-color: #000;
+  height: 200px;
+  padding: 15px 20px;
+}
+
+.socialmedia {
+  fill: #fff;
+}
