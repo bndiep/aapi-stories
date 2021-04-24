@@ -40,6 +40,17 @@ form {
     height: 150px;
 }
 
+.btn-primary {
+    background-color: #F07524;
+    border: #F07524
+
+}
+
+.btn-primary:hover {
+    background-color: #F07524;
+    border: #F07524;
+}
+
 /* Footer Section */
 footer {
     background-color: #000;
