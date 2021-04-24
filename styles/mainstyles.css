@@ -1,7 +1,16 @@
+/* *,*::before,*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
 body {
+    width: 100%;
     background-color: #4A4A4A;
     color: #fff;
-    height: 5000px
+    height: 5000px;
+    overflow-x: hidden;
+    position: relative; 
 }
 
 /* Navigation */
@@ -66,8 +75,196 @@ h3{
 
 /* Affiliates */
 #affiliates {
-    background-color: #4A4A4A;
+    padding: 0 0 40px 0;
+    margin: 0 auto;
+    width: 95%; 
+    display: flex; 
+    flex-direction: column; 
+    height: 730px;
 }
+
+#affiliate-title{
+    position: relative;
+    margin-bottom: 48px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 36px;
+    text-align: center;
+}
+
+ul{
+    list-style: none;
+}
+
+.image-accordian{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.image-accordian ul{
+    width: 100%;
+    height: 100%;
+    display: table;
+    table-layout: fixed;
+
+}
+
+.image-accordian ul li{
+    width: 20%;
+    height: 100%;
+    display: table-cell;
+    vertical-align: bottom;
+    position: relative;
+    transition: all 500ms ease;
+}
+
+.image-accordian ul li:nth-child(1){
+    background: url(../assets/washingtondc.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.image-accordian ul li:nth-child(2){
+    background: url(../assets/sanfran.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.image-accordian ul li:nth-child(3){
+    background: url(../assets/chicago.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.image-accordian ul li:nth-child(4){
+    background: url(../assets/la.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.image-accordian ul li:nth-child(5){
+    background: url(../assets/atlanta.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.image-accordian ul:hover li,
+.image-accordian ul:focus-within li{
+    width: 8%;
+}
+.image-accordian ul:hover li:hover,
+.image-accordian ul li:focus,
+.image-accordian ul:focus-within li:focus{
+    width: 60%;
+}
+
+.image-accordian ul li:focus{
+    outline: none;
+}
+
+.image-accordian ul li div{
+    
+    display: block;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+} 
+
+.image-accordian ul li div a{
+    width: 100%;    
+    height: 100%;
+    position: relative;
+    padding: 30px 20px 30px;
+    z-index: 3;
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    background: rgba(0, 0, 0, 0.4);
+}
+
+    .image-accordian ul li div a *{
+        opacity: 0;
+        position: relative;
+        width: 100%;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        transform: translateX(-20px);
+        transition: all 400ms ease;
+    } 
+
+    .image-accordian ul li div a h2{
+        font-size: 30px;
+        font-weight: 700;
+        letter-spacing: 1px;
+        text-overflow: clip;
+        margin-bottom: 10px;
+    }
+
+    .image-accordian ul li div a p{
+        font-size: 16px;
+        font-weight: 400;
+        width: 500px;
+        white-space: normal;
+        line-height: 1.2;
+    }
+
+    
+    .image-accordian ul:hover li:hover a,
+    .image-accordian ul li:focus a,
+    .image-accordian ul:focus-within li:focus a{
+        background: rgba(0, 0, 0, 0);
+    } 
+
+    .image-accordian ul:hover li:hover a *,
+    .image-accordian ul li:focus a *,
+    .image-accordian ul:focus-within li:focus a *{
+        opacity: 1;
+        transform: translate(0px);
+    }    
+
+
+
+
+
+
+
+
+
+/* .gallery-wrap{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    height:70vh;
+    opacity: 1;
+    transition: 0.5s ease;
+}
+
+.item{
+    flex:1 1 0;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: flex 0.8s ease;
+}
+
+.item-1{
+    background-image: url(../assets/washingtondc.jpg);
+}
+.item-2{
+    background-image: url(../assets/sanfran.jpg);
+}
+.item-3{
+    background-image: url(../assets/chicago.jpg);
+}
+.item-4{
+    background-image: url(../assets/la.jpg);
+}
+.item-5{
+    background-image: url(../assets/atlanta.jpg);
+}
+
+.item:hover{
+    flex:7 1 0;
+} */
 
 /* Donations */
 #donate {
