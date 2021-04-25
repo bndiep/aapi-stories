@@ -95,14 +95,14 @@ ul{
     list-style: none;
 }
 
-.image-accordian{
+.image-accordion{
     position: relative;
     width: 100%;
     height: 100%;
     overflow: hidden;
 }
 
-.image-accordian ul{
+.image-accordion ul{
     width: 100%;
     height: 100%;
     display: table;
@@ -110,7 +110,7 @@ ul{
 
 }
 
-.image-accordian ul li{
+.image-accordion ul li{
     width: 20%;
     height: 100%;
     display: table-cell;
@@ -119,46 +119,46 @@ ul{
     transition: all 500ms ease;
 }
 
-.image-accordian ul li:nth-child(1){
+.image-accordion ul li:nth-child(1){
     background: url(../assets/washingtondc.jpg) no-repeat center center;
     background-size: cover;
 }
 
-.image-accordian ul li:nth-child(2){
+.image-accordion ul li:nth-child(2){
     background: url(../assets/sanfran.jpg) no-repeat center center;
     background-size: cover;
 }
 
-.image-accordian ul li:nth-child(3){
+.image-accordion ul li:nth-child(3){
     background: url(../assets/chicago.jpg) no-repeat center center;
     background-size: cover;
 }
 
-.image-accordian ul li:nth-child(4){
+.image-accordion ul li:nth-child(4){
     background: url(../assets/la.jpg) no-repeat center center;
     background-size: cover;
 }
 
-.image-accordian ul li:nth-child(5){
+.image-accordion ul li:nth-child(5){
     background: url(../assets/atlanta.jpg) no-repeat center center;
     background-size: cover;
 }
 
-.image-accordian ul:hover li,
-.image-accordian ul:focus-within li{
+.image-accordion ul:hover li,
+.image-accordion ul:focus-within li{
     width: 8%;
 }
-.image-accordian ul:hover li:hover,
-.image-accordian ul li:focus,
-.image-accordian ul:focus-within li:focus{
+.image-accordion ul:hover li:hover,
+.image-accordion ul li:focus,
+.image-accordion ul:focus-within li:focus{
     width: 60%;
 }
 
-.image-accordian ul li:focus{
+.image-accordion ul li:focus{
     outline: none;
 }
 
-.image-accordian ul li div{
+.image-accordion ul li div{
     
     display: block;
     width: 100%;
@@ -166,7 +166,7 @@ ul{
     overflow: hidden;
 } 
 
-.image-accordian ul li div a{
+.image-accordion ul li div a{
     width: 100%;    
     height: 100%;
     position: relative;
@@ -180,7 +180,7 @@ ul{
     background: rgba(0, 0, 0, 0.4);
 }
 
-    .image-accordian ul li div a *{
+    .image-accordion ul li div a *{
         opacity: 0;
         position: relative;
         width: 100%;
@@ -190,7 +190,7 @@ ul{
         transition: all 400ms ease;
     } 
 
-    .image-accordian ul li div a h2{
+    .image-accordion ul li div a h2{
         font-size: 30px;
         font-weight: 700;
         letter-spacing: 1px;
@@ -198,7 +198,7 @@ ul{
         margin-bottom: 10px;
     }
 
-    .image-accordian ul li div a p{
+    .image-accordion ul li div a p{
         font-size: 16px;
         font-weight: 400;
         width: 500px;
@@ -207,15 +207,15 @@ ul{
     }
 
     
-    .image-accordian ul:hover li:hover a,
-    .image-accordian ul li:focus a,
-    .image-accordian ul:focus-within li:focus a{
+    .image-accordion ul:hover li:hover a,
+    .image-accordion ul li:focus a,
+    .image-accordion ul:focus-within li:focus a{
         background: rgba(0, 0, 0, 0);
     } 
 
-    .image-accordian ul:hover li:hover a *,
-    .image-accordian ul li:focus a *,
-    .image-accordian ul:focus-within li:focus a *{
+    .image-accordion ul:hover li:hover a *,
+    .image-accordion ul li:focus a *,
+    .image-accordion ul:focus-within li:focus a *{
         opacity: 1;
         transform: translate(0px);
     }    
