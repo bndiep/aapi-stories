@@ -18,25 +18,20 @@
 <body>
     <header>
         <nav>
-            <a class="navbar-toggler" type="button" data-bs-toggle="offcanvas" href="#toggleMenu"
-                aria-controls="toggleMenu"><span class="navbar-togger-icon"><svg xmlns="http://www.w3.org/2000/svg"
-                        width="24" height="24" viewBox="0 0 24 24">
-                        <path d="M24 6h-24v-4h24v4zm0 4h-24v4h24v-4zm0 8h-24v4h24v-4z" />
-                    </svg></span>
-            </a>
-
-            <div class="offcanvas offcanvas-start" tabindex="-1" id="toggleMenu" aria-labelledby="toggleMenuLabel"
-                data-bs-backdrop="false">
+            <div class="menu-icon">
+                <a class="btn" data-bs-toggle="offcanvas" href="#toggleMenu" role="button" aria-controls="toggleMenu">
+                </a>
+            </div>
+            <div class="offcanvas offcanvas-start" tabindex="-1" id="toggleMenu" aria-labelledby="toggleMenuLabel">
                 <div class="offcanvas-header">
-                    <h5 class="offcanvas-title" id="toggleMenuLabel">Advancing Justice</h5>
                     <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
                         aria-label="Close"></button>
                 </div>
                 <div class="offcanvas-body">
                     <div>
-                        <ul>
+                        <ul class="nav-links">
                             <li>
-                                <a href="#home">Home</a>
+                                <a href="index.html">Home</a>
                             </li>
                             <li>
                                 <a href="html/stories.html">Stories</a>
@@ -73,7 +68,7 @@
                 Have you ever experienced or witnessed an incident of discrimination against AAPI communities? How did
                 this make you feel?
             </p>
-            <button type="button" class="btn btn-primary">Share Your Story</button>
+            <a href="html/stories.html" type="button" class="btn btn-primary main-buttons">Share Your Story</a>
         </div>
     </div>
     <div id="affiliates">
@@ -134,7 +129,7 @@
                 nation that protects the rights of all marginalized communities that are part of the fabric of America.
             </p>
         </div>
-        <button type="button" class="btn btn-primary btn-lg donate-button">Donate</button>
+        <a href="html/donations.html" type="button" class="btn btn-primary btn-lg donate-button main-buttons">Donate</a>
     </div>
     <footer id="contacts">
         <h1>Connect with Us</h1>
