@@ -33,3 +33,9 @@
 
 ![image of Essteem Equalithon badge - Team Leader]
 (https://dl.airtable.com/.attachments/775066c85d8591af5478ce9a721f1f1f/db83f0be/Performance-TeamLeader.png)
+
+![image]
+(https://dl.airtable.com/.attachments/e0ee7f62335eacadbad24bbcb004e6b0/f112524e/Teambadge-UserExperience.png)
+
+![image]
+(https://dl.airtable.com/.attachments/2788f0ffe5b8f612e7c1b778d4c33671/a087235d/Teambadge-FeaturePrioritizing.png)
