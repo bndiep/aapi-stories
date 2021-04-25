@@ -8,7 +8,7 @@ body {
     width: 100%;
     background-color: #4A4A4A;
     color: #fff;
-    height: 5000px;
+    height: 3000px;
     overflow-x: hidden;
     position: relative; 
 }
@@ -47,7 +47,7 @@ h3{
 
 /* Campaign */
 #stories {
-    height: 730px;
+    height: 800px;
     margin-top: 30px ;
     display: flex;
     flex-direction: row;
@@ -56,7 +56,7 @@ h3{
 }
 
 #wordcloud{
-    padding: 30px;
+    padding: 30px 60px 30px 30px;
 }
 
 .btn, .btn-primary{
@@ -218,58 +218,43 @@ ul{
     .image-accordian ul:focus-within li:focus a *{
         opacity: 1;
         transform: translate(0px);
-    }    
-
-
-
-
-
-
-
-
-
-/* .gallery-wrap{
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    height:70vh;
-    opacity: 1;
-    transition: 0.5s ease;
-}
-
-.item{
-    flex:1 1 0;
-    height: 100%;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    transition: flex 0.8s ease;
-}
-
-.item-1{
-    background-image: url(../assets/washingtondc.jpg);
-}
-.item-2{
-    background-image: url(../assets/sanfran.jpg);
-}
-.item-3{
-    background-image: url(../assets/chicago.jpg);
-}
-.item-4{
-    background-image: url(../assets/la.jpg);
-}
-.item-5{
-    background-image: url(../assets/atlanta.jpg);
-}
-
-.item:hover{
-    flex:7 1 0;
-} */
+    }
 
 /* Donations */
 #donate {
     background-color: #fff;
-    color: #000;
+    color: white;
+    height: 600px;
+    position: relative;
+}
+
+#donate-banner{
+    margin-top: 5%;
+    margin-bottom: auto;
+    background: #F07524;
+    position: absolute;
+    width: 100%;
+    height: 400px;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+}
+
+#donate-text{
+    font-size: 25px;
+    top: 50%;
+    left: 50%;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.donate-button{
+    margin-top: 500px;
+    margin-left: 45%;
+
 }
 
 /* Footer Section */
