@@ -41,21 +41,23 @@ body {
 }
 
 /* About */
+img {
+  width: 250px;
+  height: auto;
+}
 
-/* Cards */
-.card {
-  width: 18rem;
-  color: #000;
+.examples {
+  font-weight: bold;
 }
 
 .btn-primary {
-  background-color: #F07524;
-  border: #F07524;
+  background-color: #000;
+  border:#000;
 }
 
 .btn-primary:hover {
-  background-color: #F07524;
-  border: #F07524;
+  background-color: #000;
+  border:#000;
 }
 
 /* Footer */
