@@ -40,6 +40,26 @@ body {
   color: #F07524;
 }
 
+/* About */
+img {
+  width: 250px;
+  height: auto;
+}
+
+.examples {
+  font-weight: bold;
+}
+
+.btn-primary {
+  background-color: #000;
+  border:#000;
+}
+
+.btn-primary:hover {
+  background-color: #000;
+  border:#000;
+}
+
 /* Footer */
 footer {
   background-color: #000;
